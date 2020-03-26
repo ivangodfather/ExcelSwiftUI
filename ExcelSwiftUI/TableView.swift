@@ -41,7 +41,7 @@ struct TableView: View {
             if anchor != nil {
                 Rectangle()
                     .fill(Color.clear)
-                    .border(Color.blue, width: 2)
+                    .border(Color.blue, width: 1.5)
                     .offset(x: proxy[anchor!].minX, y: proxy[anchor!].minY)
                     .frame(width: proxy[anchor!].width, height: proxy[anchor!].height)
             }

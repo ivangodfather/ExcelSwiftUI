@@ -20,7 +20,7 @@ struct ContentView: View {
     
     var body: some View {
         TableView(data: data)
-            .font(.system(size: 18, weight: .regular, design: .monospaced))
+            .font(.system(size: 16, weight: .regular, design: .monospaced))
 
     }
 }
